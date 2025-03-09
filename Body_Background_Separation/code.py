@@ -107,3 +107,4 @@ for i in range( size[2]):
   Image = Image_3D[:,:,i]
   mask = Background_Body_Separation(Image)
   Mask_3D[:,:,i] = mask
+
